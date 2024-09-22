@@ -37,6 +37,7 @@ Run the simulation using the following command:
 
 ```python ddos.py <target_ip> [options]```
 ```python ddos.py 192.168.1.100 --target-port 80 --duration 300 --rate 5000 --methods TCP_SYN UDP HTTP_GET --size 128 --num-bots 50```
+```python your_script.py 192.168.1.1 --random```
 
 
 ### Options:
